@@ -1,0 +1,30 @@
+package day06inheritance;
+
+public class Prent {
+    /*
+    - isim ve soyisim static değişkenleri oluşturalım.
+    - method1 ve method2 static method'ları oluşturalım.
+    - yas isimli bir instance variable oluşturalım.
+    - method3 ve method4 isimli instance method'lar oluşturalım.
+    - Oluşturduğumuz değişken ve method'ları, Child class'tan inheritance yaparak çağıralım.
+    - bir parametreli birde parametresiz iki tane cons ekleyin
+*/
+
+    public static String isim="Ali";
+    public static String soyIsim="Can";
+
+
+    public static void method1(){
+        System.out.println("Parent classdaki static method1");
+    }
+
+   public static void method2(){
+       System.out.println("Parent classdaki static method2");
+   }
+
+   public  int yas =22;
+
+    public void method3(){
+        System.out.println();
+    }
+}
